@@ -5,10 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatMemesFacts</title>
     <style>
-        /* This adds a little style to make your shout-out pop! */
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f9f9f9; }
-        h1 { color: #333; }
-        .shoutout { color: #ff4500; font-weight: bold; }
+        body {
+            background-color: #1a1a1a; /* Dark gray background */
+            color: #ffffff;            /* White text */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            margin: 0;
+            text-align: center;
+        }
+        h1 { color: #00ffcc; } /* Neon green header */
+        
+        .shoutout { 
+            color: #ff4500; 
+            font-weight: bold; 
+            margin-top: 20px;
+        }
+
+        /* This makes your cat images look professional */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 3px solid #00ffcc;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0, 255, 204, 0.3);
+        }
+
+        a { color: #00ffcc; text-decoration: none; border-bottom: 1px solid #00ffcc; }
+        a:hover { color: #ff4500; border-bottom: 1px solid #ff4500; }
     </style>
 </head>
 <body>
@@ -16,8 +43,13 @@
     <h1>Website hosted on GitHub</h1>
     
     <div class="shoutout">
-        <h2>Hello guys, the most underrated cat meme channel is Ohcrayz!</h2>
+        <h2>Hello guys, the most underrated cat meme channel is <a href="https://www.youtube.com/@Ohcrayz" target="_blank">Ohcrayz</a>!</h2>
     </div>
+
+    <h3>Daily Cat Meme:</h3>
+    <img src="ohcrayz.jpg" alt="Funny Cat Meme">
+
+    <p><i>Stay tuned for more facts and memes!</i></p>
 
 </body>
 </html>
